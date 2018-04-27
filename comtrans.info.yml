@@ -1,0 +1,9 @@
+name: ComTrans Comment Translation
+description: Description
+type: module
+core: 8.x
+package: Multilingual
+# configure: comtrans.configure
+dependencies:
+  - drupal:comment
+  - drupal:language

@@ -1,0 +1,14 @@
+comtrans.configure:
+  path: '/admin/config/regional/comtrans'
+  defaults:
+    _form: '\Drupal\comtrans\Form\SettingsForm'
+    _title: 'ComTrans Comment Translation'
+  requirements:
+    _permission: 'administer comtrans'
+
+comtrans.comment:
+  path: '/comtrans/comment/{cid}'
+  defaults:
+    _controller: '\Drupal\comtrans\Controller\CommentAjaxController::content'
+  requirements:
+    _permission: 'access content'

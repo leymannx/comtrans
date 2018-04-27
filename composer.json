@@ -1,0 +1,6 @@
+{
+    "name": "drupal/comtrans",
+    "require": {
+        "google/cloud-translate": "^1.2"
+    }
+}
